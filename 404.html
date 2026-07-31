@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page non trouvée | linknodes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0b1329;
+            color: #ffffff;
+        }
+        .font-heading {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .glow-effect {
+            box-shadow: 0 0 50px -10px rgba(16, 185, 129, 0.3);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between antialiased">
+
+    <header class="w-full max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+        <a href="index.html" class="font-heading font-bold text-2xl tracking-tight text-white hover:opacity-80 transition-opacity">
+            linknodes
+        </a>
+    </header>
+
+    <main class="flex-grow flex items-center justify-center px-6 py-12">
+        <div class="max-w-lg w-full text-center">
+            <!-- Visual Badge / Glow -->
+            <div class="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-slate-800/80 border border-slate-700 mb-8 glow-effect">
+                <span class="font-heading font-bold text-3xl text-emerald-400">404</span>
+            </div>
+
+            <h1 class="font-heading font-bold text-3xl sm:text-4xl text-white mb-4">
+                Page introuvable
+            </h1>
+
+            <p class="text-slate-400 text-base sm:text-lg mb-8 leading-relaxed">
+                Désolé, la ressource ou la page que vous recherchez n'existe pas ou a été déplacée.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="index.html" class="w-full sm:w-auto px-6 py-3 rounded-lg bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-semibold transition-colors duration-200">
+                    Retourner à l'accueil
+                </a>
+                <a href="privacy.html" class="w-full sm:w-auto px-6 py-3 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-300 font-medium transition-colors duration-200">
+                    Politique de confidentialité
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="w-full border-t border-white/10 py-6">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-400">
+            <div class="flex items-center gap-6">
+                <span class="font-heading font-bold text-white text-lg">linknodes</span>
+                <a href="privacy.html" class="hover:text-white transition-colors">Politique de confidentialité</a>
+            </div>
+            <p class="text-slate-500 text-xs sm:text-sm">
+                © 2026 - Numerech. Tous droits réservés.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
